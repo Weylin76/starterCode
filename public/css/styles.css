@@ -1,6 +1,29 @@
-/******* Change Box Model ***************/
+/*********** Change Box Model ***************/
 *,
 *:before,
 *:after {
   box-sizing: border-box;
+
+}
+
+/********* Body ***************************/
+body{
+  width: 800px;
+  border: 3px lightblue solid;
+  /*background checkers not working yet */
+  /* background-image: url(../public/images/site/checkerboard.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center center; */
+}
+
+/********* Nav bar ***********************/
+li {
+  display: inline;
+  background-color: black;
+  color: white;
+}
+
+.review{
+  display: block;
 }
